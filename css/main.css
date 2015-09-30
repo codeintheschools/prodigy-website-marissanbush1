@@ -1,0 +1,557 @@
+/* Base Styles -------------------- */
+
+body {
+  color: #54206A;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  background-color: #000;
+  font-size:1rem;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {  
+  font-size: 5.625rem; /* 90px/16px  */
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: 0 5px 5px rgba(0,0,0, .8);
+  margin: 12px 0 0 0;
+  font-family:"Arvo", serif;
+}
+
+
+h2 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  /* margin: 0 0 .5em; /* 0 0 26px */
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+  font-family: ;
+  max-width: 90%;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+nav a {
+	color: #54206A;
+	font-family: "Raleway", sans-serif;
+}
+
+/* Pseudo-classes ------------------ */
+
+a {
+  color: #555;
+  text-decoration: none;
+  font-size:1.5rem;
+}
+
+a:hover {
+  color: #555;
+}
+
+
+
+/* Main Styles --------------------- */
+
+.main-header {
+  padding-top: 170px;
+  height: 850px;
+  background: linear-gradient(0deg, #000, transparent),
+              #ffa949 url('../img2/baltimore_homepage.png') no-repeat center;
+  background-size: cover;
+  margin-right:0;
+}
+
+.title {
+  color: #000;
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom:10px;
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;  
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.primary-content {
+	padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+  margin-bottom: 10px;
+  max-width: 1000px;
+}
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  bottom: 0px;
+  color: white;
+  font-family: "Pacifico", cursive;
+  margin-right:0;
+  max-width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  /*margin: 20px 0 0;*/
+}
+
+nav ul {
+  list-style-image: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+nav {
+  background: none;
+}
+/* Layout Styles ------------------ */
+
+.primary-content, 
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+}
+
+.secondary-content {
+  width: 95%;
+  padding-left: 0;
+  padding-right: 50px;
+  margin-left: 50px;
+  max-width: 90%;
+}
+.about_me {
+  font-weight: bold;
+  text-align: center;
+  /*padding: 18% 24%;
+  margin: 105px 0 60px;*/
+  padding: 10% 10%;
+  margin: 10% auto;
+  background-color:#000;
+  background-size:cover;
+  box-shadow:0px 0px 5px 5px rgba(256,256,256, .8);
+  text-shadow: -1px -1px #222;
+  color: #fff;
+  max-width: 70%;
+  background-image: url('../img2/cartagena-sunset.jpg');
+  background-repeat: no-repeat;
+}
+.about_me img {
+	max-width:80%;
+}
+
+.about_me p {
+  color: #fff;
+  text-shadow: -1px -1px #222;
+  color: #fff;
+}
+
+.arrow {
+  width: 50px;
+  margin-top: 150px;
+}
+
+
+/* Floated Columns ------------------ */
+
+.information2,
+.information1 {
+  max-width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-top: none;
+  margin-top: 10px;
+  display: inline-table;
+}
+
+td, 
+th {
+  text-align: left;
+  white-space: nowrap;
+  padding-right: 20px;
+}
+
+table{
+	max-width: 90%;
+}
+
+.flag, 
+.seal {
+  width: 400px;
+  height: 400px;
+}
+.information2 {
+  float: right;
+  max-width: 60%;
+  margin-right: 0;
+}
+
+.information1 {
+  float: left;
+  margin-right: 0;
+}
+/*.information1 {
+  margin-bottom: 5%;
+}*/
+
+.choice {
+  max-width: 100%;
+  text-align: center;
+  margin: 0px 15px 10px 15px;
+  float: right;
+}
+
+.bocagrande {
+  margin-top: 100px;
+  width: 500px;
+  float: left;
+}
+.choice, 
+.bocagrande {
+	display: inline-block;
+}
+
+.shadow { 
+   font: bold 18px 'Exo 2';
+   text-shadow: 1px 1px #222, 
+                2px 2px #111, 
+                3px 3px #222;
+   -webkit-transition: all 0.10s ease-out;
+   -moz-transition:    all 0.10s ease-out;
+   -ms-transition:     all 0.10s ease-out;
+   -o-transition:      all 0.10s ease-out;
+}
+
+.shadow:hover {
+   position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px #111, 
+                2px 2px #111, 
+                3px 3px #222, 
+                4px 4px #222, 
+}
+
+/*.seal:hover, 
+.flag:hover,
+/*.main-footer img:hover*/ {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: twice;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: twice;
+  -moz-animation-timing-function: linear;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: twice;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+}
+  
+@-moz-keyframes rotate {
+  from {-moz-transform: rotate(0deg);}
+  to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.video {
+  margin: auto;
+  max-width: 90%;
+  
+}
+
+.galleryTitle{
+	text-align: center;
+	font-size: 2rem;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: right;
+}
+
+/* Media Queries -------------------- */
+
+@media (max-width:1024px) {
+  .primary-content,
+  .secondary-content {
+    width: 80%;
+  }
+  .about_me {
+	max-width: 90%;
+   /* padding: 10% 12%; */
+    margin: 50px 0 20px;
+  }
+  .information1, 
+  .information2{
+	  max-width:50%;
+	  margin: 10% 0;
+	  padding: 0;
+	  text-align: left;
+	  float: none;
+	  display: block;
+  }
+  th, 
+  td{
+	padding: 0;  
+  }
+}
+
+@media (max-width: 768px) {
+  .primary-content,
+  .secondary-content {
+    width: 90%;
+    padding: 20px;
+    border-top: none;
+  } 
+  .main-header {
+    max-height: 380px;
+    padding: 50px 25px 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+  .title {
+    font-size: 1.3rem;
+    border: none;
+}
+  h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    max-width: 100%;
+  }
+  h2{
+	font-size: 3rem;
+  }
+  
+  h3{
+	font-size: 2rem;
+  }
+  
+  .arrow {
+    display: none;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .information2,
+  .information1 {
+    float: none;
+    max-width:60%;
+  }
+  .main-footer {
+    padding: 20px 0;
+}
+
+  .information1, 
+  .information2 {
+    display: block;
+    text-align: left;
+    font-size: .85rem;
+	font-size: 1rem;
+  }
+
+  .seal, 
+  .flag {
+    max-width: 100%;
+}
+
+.shadow {
+  text-shadow: none;
+}
+
+.video {
+  max-width: 90%;
+}
+.information1, 
+  .information2{
+	  max-width:50%;
+	  margin: 10% 0;
+	  padding: 0;
+	  text-align: left;
+	  float: none;
+	  display: block;
+  }
+  th, 
+  td{
+	padding: 0;  
+  }
+  table{
+	  margin: 0;
+  }
+}
+
+footer{
+	display: block;
+	float: right;
+	/*text-align: center;*/
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.main-footer{
+	text-align: center;
+	margin: auto;
+	display:block;
+	padding-bottom:0;
+	max-width: 5%;
+	padding-top: 10px;
+}
+footer img{
+	max-width:50%;
+	margin-bottom: 0;
+	border:none;
+	display: inline-block;
+}
+footer p{
+	text-align: center;
+	margin-top: 0;
+}
+nav {
+	display:block;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  
+}
+
+nav ul {
+  list-style-image: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+nav {
+  background: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 160px;
+  margin: 5px auto 30px;
+  border-radius: 100%;
+}
+
+.about-info {
+  color: #54206A;
+}
+
+/*Contact Page-----*/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+.contact-info li.phone a {
+  background-image: url('../img/phone.png')
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png')
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png')
+}
+
+
+
+
+
+
+
+
